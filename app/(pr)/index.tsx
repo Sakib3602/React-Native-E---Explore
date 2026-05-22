@@ -1,13 +1,14 @@
+import ImageSlider from '@/components/ImageSlider';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 export default function Index() {
 	return (
-		<SafeAreaView>
+	
 			<View >
-				<Text className='text-[22px]'>হোম</Text>
+				<ImageSlider></ImageSlider>
 			</View>
-		</SafeAreaView>
+		
 	);
 }
 
